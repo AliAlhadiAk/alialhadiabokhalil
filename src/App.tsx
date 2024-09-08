@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
-import Technologies from './Components/Technologies';
+import Technologies  from './Components/Technologies';
 import Project from './Project';
 import Contact from './Contact';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <>
       <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300'>

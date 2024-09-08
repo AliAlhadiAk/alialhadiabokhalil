@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
-    const container = (delay) =>({
+    const container = (delay : any) =>({
         hidden: {x:-100, opacity:0},
         visible:{
             x:0,

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import image from'./Project-dishes.png';
 import image2 from './Books-project.jpeg';
 import image3 from './Authentication-project.jpeg'
@@ -10,8 +10,7 @@ import chatApp from './WhatsApp Image 2024-09-07 at 18.32.23.jpeg'
 
 
 const Project = () => {
-  const [hover,setHover] = useState(false)
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       title: "Food-DeliveryApp",
       description: "A fully functional animated Food Delivery website  ",

@@ -54,7 +54,7 @@ const Project = () => {
     {
         title: "Chat App ReactNative",
         description: "Dive into the world of real-time communication with this feature-packed chat app built using React Native and Firebase. This application showcases a seamless blend of cutting-edge technology and user-centric features, delivering an exceptional messaging experience.",
-        technologies: ["React Native", "Javascript","ChatGPT OpenAI","Dall-E"],
+        technologies: ["React Native", "TypeScript","Firebase"],
         image:chatApp
         
       },
